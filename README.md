@@ -4,18 +4,29 @@
 
 What are my stream priorities and projects in 2022?
 
+## Priorities
+
+- Open source software contributions
+  - Low level Haskell: speeds up code execution for the entire community
+  - Cryptography: intrinsically _mathy_, potentially engaging conceptually
+  - Unison: _something goes here_
+
 ## Projects
 
 - Zero to Haskell Language Server
-- [Functional Programming Made Easier](https://leanpub.com/fp-made-easier)
-- Snail: A scheme implementation for teaching interpreters in Haskell
-- NFTree: An non-blockchain tree adoption website
-- Pluto: An HTTP driven Twitch overlay
+- [SnailScheme](https://github.com/chiroptical/snailscheme): A scheme implementation for teaching interpreters in Haskell
+- [Cataract](https://github.com/chiroptical/cataract): An HTTP driven Twitch overlay
+- Low level Haskell projects which may need help,
+  - https://github.com/haskell-text/diablo
+  - https://github.com/kozross/diablerie
+- Haskell crytography working group may need help,
+  - https://github.com/haskell-cryptography
 
 ## Project Ideas
 
 - A Lua backend for Purescript (e.g. write you vim config in Purescript)
 - A CSV exploration and parsing tool using higher kinded data
+  - Idea: start with a dirty CSV and instantiate a `Row (Either ParseErrors) a` and work towards `Row Identity a` filling in `ParseErrors`
   - [barbies](https://hackage.haskell.org/package/barbies) might be useful here?
   - [opaleye](https://hackage.haskell.org/package/opaleye) does something like this
 
